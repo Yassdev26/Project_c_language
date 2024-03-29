@@ -4,7 +4,7 @@
 
 int main()
 {
-    char names[4][20] = {"Yasser", "Younes", "Abdo" , "Seteven"};
+    char *names[] = {"Younes", "Yasser", "Abdo" , "Seteven"};
     int name_number = 4;
     int number = 131;
     int i = 0;
